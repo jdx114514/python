@@ -7,7 +7,7 @@ print(s1)
 
 s2="努力"
 s3="勤奋"
-age=16
-print(type(age))  #加号两边必须同一类型,因此将 "age" 转换为str字符串
+age=16  #数据类型受内部影响
+print(type(age))  #加号 减号两边必须同一类型,因此将 "age" 转换为str字符串
 print("我是"+s2 + s3,",年龄"+ str(age))
 
