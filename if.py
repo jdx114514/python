@@ -23,3 +23,22 @@ elif a:
     print("666")    #满足条件2执行
 else:
     print("False")  #都不满足执行
+
+   #match...case 模式匹配
+day = input("星期几：")
+match day:
+    case "1":
+        print("周一：上班")
+    case "2":
+        print("周二：上班")
+    case "3":
+        print("周三：上班")
+    case "4":
+        print("周四：上班")
+    case "5":
+        print("周五：上班")
+    case "6"| "7":          # "x" | "y"  相同条件  "|"或的意思
+        print("休息天")
+    case _:                 # "-" 匹配其他条件   相当 else
+        print("输错了")
+
