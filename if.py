@@ -39,6 +39,22 @@ match day:
         print("周五：上班")
     case "6"| "7":          # "x" | "y"  相同条件  "|"或的意思
         print("休息天")
-    case _:                 # "-" 匹配其他条件   相当 else
+    case _:                 # _ : 匹配其他条件   相当 else
+        print("输错了")
+
+
+num1=int(input("数字"))
+num2=int(input("数字"))
+oper=input("请输入运算符：")
+match oper:
+    case "+":
+        print(num1 + num2)
+    case "-":
+        print(num1 - num2)
+    case "*":
+        print(num1 * num2)
+    case "/":
+        print(num1 / num2)
+    case _:
         print("输错了")
 
