@@ -2,7 +2,7 @@
 a= []
 if a:
      print("True")
-else:
+else:                  #elif 否则如果，当前面的判断不成立时，才执行
        print("False")  #结果为 False
 a= "aa"
 if a:
