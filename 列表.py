@@ -44,3 +44,5 @@ print(a) #[1, 2, 3, 4]
 # reverse() :反转列表函数
 a.reverse()
 print(a)  #[4, 3, 2, 1]
+
+
