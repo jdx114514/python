@@ -1,6 +1,8 @@
 # 导入模块
 import  random
+
 #  import random as r   改名字为 r
+
 for i in range(3):
     print(random.randint(1,100))
 
